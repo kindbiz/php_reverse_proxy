@@ -2,10 +2,6 @@ A cloned version from 7ghost
 
 Add NGINX config
 ```
-location /
-{
-if (!-e $request_filename){
-    rewrite . /index.php last;
-  }
-}
+if (-e $request_filename){break;}
+rewrite . /index.php last;
 ```

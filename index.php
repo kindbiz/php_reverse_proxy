@@ -27,7 +27,8 @@ $config = array (
 );
 
 	//error_reporting(0);
-	require './_admin/init.php';
+	require 'Snoopy.class.php';
+	require 'functions.php';
 	//读取配置信息
 	//$config  = d('config')->get();
 

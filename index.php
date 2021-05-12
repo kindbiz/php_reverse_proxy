@@ -1,6 +1,5 @@
 <?php
 $config = array (
-  'password' => '7ghost',
   'host' => 'https://demo.opencart.com/',
   'replaceDomain' => '0',
   'relativeHTML' => '0',

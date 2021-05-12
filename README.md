@@ -1,9 +1,10 @@
 A cloned version from 7ghost
 
 Add NGINX config
-    location /
+'    location /
     {
     if (!-e $request_filename){
         rewrite . /index.php last;
       }
     }
+'
